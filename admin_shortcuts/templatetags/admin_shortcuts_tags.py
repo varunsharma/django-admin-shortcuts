@@ -6,7 +6,7 @@ from django import template
 from django.conf import settings
 from django.core.exceptions import ImproperlyConfigured
 from django.utils.encoding import force_str
-from django.urls import reversefrom django.urls import reverse
+from django.urls import reverse
 from django.utils.translation import gettext
 from django.utils.translation import gettext_lazy as _
 from django.utils.module_loading import import_module
